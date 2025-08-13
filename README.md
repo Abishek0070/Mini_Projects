@@ -36,4 +36,4 @@ An **emergency alert button** is also included to signal for help when needed.
 
 ---
 
-## 📂 Repository Structure
+
