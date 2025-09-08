@@ -1,21 +1,101 @@
-VISUAL AIDED FRAMES
-# Paranormal Frames – Smart Glasses for the Visually Impaired
+📌 README for Visual Aided Glass
+🕶️ Project Overview
 
-## 📌 Overview
-**Paranormal Frames** is an affordable, lightweight, and wearable smart glasses system designed to assist visually impaired individuals in navigating their surroundings safely and independently.  
-The glasses use **ultrasonic sensors**, an **ESP32 microcontroller**, and **real-time feedback** to detect obstacles and alert the user through sound or vibration.  
-An **emergency alert button** is also included to signal for help when needed.
+The Visual Aided Glass project is a wearable assistive device designed to help visually impaired individuals navigate their environment safely and independently. The system integrates IoT sensors, camera vision, and audio feedback to detect obstacles, recognize objects, and provide real-time assistance.
 
----
+🚀 Features
 
-## 🚀 Features
-- **Obstacle Detection** – Ultrasonic sensor detects obstacles at head, chest, and upper body levels.
-- **Real-Time Feedback** – Audio or vibration alerts based on proximity.
-- **Emergency Alert Button** – Triggers a loud buzzer or sends an alert to a connected mobile app.
-- **Indoor & Outdoor Use** – Works effectively in different environments.
-- **Lightweight & Comfortable** – Built into regular glasses for ease of use.
-- **Hands-Free Operation** – Leaves the user’s hands free compared to traditional aids.
+Obstacle detection using ultrasonic/IR sensors.
 
+Object recognition with a camera and ML model.
+
+Voice/audio feedback through an earpiece.
+
+GPS integration for navigation and emergency assistance.
+
+Lightweight and wearable design for daily use.
+
+🛠️ Tech Stack
+
+Hardware: Arduino/Raspberry Pi, Ultrasonic Sensors, Camera Module, Bluetooth Module, Speakers/Earphones.
+
+Software: Python, OpenCV, TensorFlow/PyTorch, Arduino IDE.
+
+APIs: Text-to-Speech, GPS Navigation APIs.
+
+📂 Project Structure
+VisualAidedGlass/
+│── hardware/           # Circuit designs, wiring diagrams
+│── software/           # Code for microcontroller and ML model
+│── data/               # Training datasets for object recognition
+│── docs/               # Project reports, documentation
+│── README.md           # Project description
+
+⚡ Installation & Usage
+
+Install all required Python libraries from requirements.txt.
+
+Upload microcontroller code via Arduino IDE or Raspberry Pi.
+
+Run the object detection model using:
+
+python main.py
+
+
+Connect the device, wear the glass, and test obstacle/object detection.
+
+📌 Future Enhancements
+
+AI-based facial recognition for known contacts.
+
+Multilingual audio feedback.
+
+Integration with cloud services for real-time assistance.
+
+📌 README for ML-Based Disease Outbreak Prediction System
+🧬 Project Overview
+
+The Disease Outbreak Prediction System leverages machine learning to analyze epidemiological, environmental, and social data to predict potential disease outbreaks. The goal is to assist public health authorities in early detection, risk assessment, and prevention strategies.
+
+🚀 Features
+
+Data preprocessing from epidemiological and environmental datasets.
+
+Time-series forecasting of disease spread.
+
+Visualization of outbreak hotspots via interactive dashboards.
+
+Machine learning models for prediction (SVM, Random Forest, LSTM).
+
+Real-time alerts for potential outbreak risks.
+
+🛠️ Tech Stack
+
+Programming: Python
+
+Libraries: Pandas, NumPy, Scikit-learn, TensorFlow/Keras, Matplotlib, Plotly
+
+Visualization: Dash, Streamlit, or Tableau
+
+📂 Project Structure
+DiseaseOutbreakML/
+│── data/              # Raw and processed datasets
+│── notebooks/         # Jupyter notebooks for experiments
+│── models/            # Trained ML models
+│── src/               # Source code for preprocessing, training, evaluation
+│── dashboard/         # Visualization & web app code
+│── README.md          # Project documentation
+
+
+📌 Future Enhancements
+
+Integration with real-time healthcare APIs.
+
+Mobile app for health workers and citizens.
+
+Use of graph neural networks for modeling disease spread.
+
+Global disease data integration (WHO, CDC).
 ---
 
 ## 🛠️ Hardware Components
