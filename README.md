@@ -1,4 +1,4 @@
-📌 README for Visual Aided Glass
+📌 Visual Aided Glass
 🕶️ Project Overview
 
 The Visual Aided Glass project is a wearable assistive device designed to help visually impaired individuals navigate their environment safely and independently. The system integrates IoT sensors, camera vision, and audio feedback to detect obstacles, recognize objects, and provide real-time assistance.
