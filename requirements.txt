@@ -1,0 +1,11 @@
+scikit-learn
+xgboost
+statsmodels
+tensorflow
+keras
+newsapi-python
+yfinance
+prophet
+plotly
+textblob
+nltk
