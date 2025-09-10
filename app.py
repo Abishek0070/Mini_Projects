@@ -13,9 +13,9 @@ working_dir = os.path.dirname(os.path.abspath(__file__))
 
 # load saved models
 
-diabetes_model = pickle.load(open(r"C:\Users\Admin\Desktop\DEMO\saved_models\diabetes_model.sav", 'rb'))
-heart_model = pickle.load(open(r"C:\Users\Admin\Desktop\DEMO\saved_models\heart_model.sav", 'rb'))
-parkinsons_model = pickle.load(open(r"C:\Users\Admin\Desktop\DEMO\saved_models\parkinsons_model.sav", 'rb'))
+diabetes_model = pickle.load(open(r"C:\Users\Admin\Desktop\DEMO\diabetes_model.sav", 'rb'))
+heart_model = pickle.load(open(r"C:\Users\Admin\Desktop\DEMO\heart_model.sav", 'rb'))
+parkinsons_model = pickle.load(open(r"C:\Users\Admin\Desktop\DEMO\parkinsons_model.sav", 'rb'))
 
 
 # sidebar for navigation
@@ -196,3 +196,4 @@ if selected == "Parkinsons Disease Prediction":
 # Contributor footer at the bottom of the page
 st.markdown("---")
 st.markdown("<div style='text-align: center; color: gray; padding: 10px;'>Contributed by: Abishek(https://github.com/Abishek0070) </div>", unsafe_allow_html=True)
+
