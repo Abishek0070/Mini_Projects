@@ -23,13 +23,6 @@ Software: Python, OpenCV, TensorFlow/PyTorch, Arduino IDE.
 
 APIs: Text-to-Speech, GPS Navigation APIs.
 
-📂 Project Structure
-VisualAidedGlass/
-│── hardware/           # Circuit designs, wiring diagrams
-│── software/           # Code for microcontroller and ML model
-│── data/               # Training datasets for object recognition
-│── docs/               # Project reports, documentation
-│── README.md           # Project description
 
 ⚡ Installation & Usage
 
@@ -73,18 +66,9 @@ Real-time alerts for potential outbreak risks.
 
 Programming: Python
 
-Libraries: Pandas, NumPy, Scikit-learn, TensorFlow/Keras, Matplotlib, Plotly
+Libraries: Pandas, NumPy, Scikit-learn, TensorFlow/Keras, Matplotlib, 
 
 Visualization: Dash, Streamlit, or Tableau
-
-📂 Project Structure
-DiseaseOutbreakML/
-│── data/              # Raw and processed datasets
-│── notebooks/         # Jupyter notebooks for experiments
-│── models/            # Trained ML models
-│── src/               # Source code for preprocessing, training, evaluation
-│── dashboard/         # Visualization & web app code
-│── README.md          # Project documentation
 
 
 📌 Future Enhancements
