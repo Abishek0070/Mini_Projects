@@ -9,3 +9,5 @@ prophet
 plotly
 textblob
 nltk
+streamlit
+streamlit-option-menu
